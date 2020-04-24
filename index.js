@@ -59,15 +59,38 @@ console.log(typeof user1)
 
 // 8) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Array яке буде містити хоча б 3 значення.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
+let fruits = ['apple', 'banana', 'pineapple'];
+typeof fruits
+"object"
+console.log(fruits)
 
 // 9) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Function.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
+const square = function (number) { return number * number }
+undefined
+typeof square
+"function"
+console.log(square)
+ƒ(number) { return number * number }
 
 // 10) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Undefined.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
+let x = 123;
+x = undefined
+console.log(x)
 
 // 11) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Null.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
+let age = null;
+undefined
+typeof age
+"object"
+console.log(age)
 
 // 12) Оголосіть змінну user типу Object і опишіть своє: ім'я, фамілію, дату народження,
 // місце проживання, стать і можете добавити ще додаткові параметри використовуючи різні типи даних.
+let user = new Object
+let user1 = { name: 'Victor', age: 28, location: 'Ireland', sex: 'male' }
+typeof user
+"object"
+console.log(user)
