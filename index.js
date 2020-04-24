@@ -43,16 +43,12 @@ console.log(typeof 23);
 // 6) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Boolean.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
 let green = true;
-let red = false;
 typeof true
 console.log(typeof true)
 
 // 7) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Object яке буде містити хоча б 3 ключі.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
-let user1 = {}
 let user1 = { name: 'Victor', age: 28, location: 'Ireland' }
-
-object.keys(user1)
 typeof { a: 1 }
 console.log(typeof user1)
 
