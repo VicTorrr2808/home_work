@@ -34,7 +34,6 @@ console.log(pivasik)
 if (pivasik < 2) {
 	console.log(1)
 } else {
-	(pivasik >= 2)
 	console.log(2)
 }
 
@@ -43,13 +42,12 @@ if (pivasik < 2) {
 // *Використовуючи "if else" виведіть в консоль "1" або "2" або "3"
 let pivasik = prompt('Budesh pivasik?')
 console.log(pivasik)
+
 if (pivasik < 2) {
 	console.log(1)
-} else if {
-	(pivasik = 2)
+} else if (pivasik == 2) {
 	console.log(2)
 } else {
-	(pivasik > 3)
 	console.log(3)
 }
 
@@ -71,12 +69,14 @@ switch (value) {
 let age = prompt('How old are you?')
 console.log(age)
 
-switch (value) {
-	case 1: {
+switch (age) {
+	case '1': {
 		console.log(1)
+		break
 	}
 	default: {
 		console.log(2)
+		break
 	}
 }
 
@@ -84,8 +84,48 @@ switch (value) {
 // 10. Виведіть користувачу попап використовуючи функцію "prompt" який містить довільне питання і не має дефолтного значення. Результат присвойте у змінну.
 // *Виведіть змінну в консоль за допомогою "console.log"
 // *Використовуючи "switch" виведіть в консоль "1" або "2" або "3"
+let age = prompt('How old are you?')
+console.log(age)
+
+switch (age) {
+	case '1': {
+		console.log(1)
+		break
+	} case '2': {
+		console.log(2)
+		break
+	} case '3': {
+		console.log(3)
+	}
+}
+
+
+
 
 // 11. Виведіть користувачу попап використовуючи функцію "prompt" який містить довільне питання і не має дефолтного значення. Результат присвойте у змінну.
 // *Виведіть змінну в консоль за допомогою "console.log"
 // *Використовуючи "switch" виведіть в консоль "1" або "2" або "3", виконайте те саме за допомогою "if else";
 // *Зробіть два різні приклади
+
+let age = prompt('How old are you?')
+console.log(age)
+
+switch (age) {
+	case '1': {
+		console.log(1)
+		break
+	} case '2': {
+		console.log(2)
+		break
+	} case '3': {
+		console.log(3)
+	}
+}
+
+if (age < 2) {
+	console.log(1)
+} else if (age == 2) {
+	console.log(2)
+} else {
+	console.log(3)
+}
