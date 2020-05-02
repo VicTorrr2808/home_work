@@ -60,6 +60,7 @@ console.log(pivasik)
 switch (value) {
 	case 1: {
 		console.log(1)
+		break
 	}
 }
 
@@ -96,6 +97,7 @@ switch (age) {
 		break
 	} case '3': {
 		console.log(3)
+		break
 	}
 }
 
@@ -119,6 +121,7 @@ switch (age) {
 		break
 	} case '3': {
 		console.log(3)
+		break
 	}
 }
 
@@ -129,3 +132,6 @@ if (age < 2) {
 } else {
 	console.log(3)
 }
+
+
+
