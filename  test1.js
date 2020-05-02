@@ -71,3 +71,27 @@ console.log(type)
 // * Виведіть змінну в консоль за допомогою "console.log"
 // * Використовуючи "switch" виведіть в консоль "a" або "b" або "c", виконайте те саме за допомогою "if else";
 // * Зробіть два різні приклади
+
+let age = prompt('How old are you?')
+console.log(age)
+
+switch (age) {
+	case '1': {
+		console.log(1)
+		break
+	} case '2': {
+		console.log(2)
+		break
+	} case '3': {
+		console.log(3)
+		break
+	}
+}
+
+if (age < 2) {
+	console.log(1)
+} else if (age == 2) {
+	console.log(2)
+} else {
+	console.log(3)
+}
